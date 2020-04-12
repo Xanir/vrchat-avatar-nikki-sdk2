@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Pants
+  m_Shader: {fileID: 4800000, guid: 7d0cb2847f4535c46830eafa4f857fac, type: 3}
+  m_ShaderKeywords: _
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlendNoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlendTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: a0fde614a95c2d44ca3dec1fba756a6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 51911c6204bee004b8c10bb5ba334fbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main:
+        m_Texture: {fileID: 2800000, guid: c29dd6e8b9e2aa44e9badfa58414bd8f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 94de0dae0931e8c4681ac9c6f99a584c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: bca178b4ea45a034ab11a1334ae00023, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PanningTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PanoMapTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PanosphereTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularHighTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOStrength: 1
+    - _AddMatcap: 0
+    - _AdditiveOffset: 0
+    - _AdditiveSoftness: 0
+    - _Ammount: 0
+    - _AmplifyMaintex: 2
+    - _AttenuationMultiplier: 0
+    - _AutoBlend: 0
+    - _AutoBlendDelay: 2
+    - _AutoBlendSpeed: 2
+    - _Blend: 0
+    - _BlendAlpha: 0
+    - _BumpScale: 1
+    - _Clip: 0
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _Desaturation: 0
+    - _DestinationBlend: 10
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissionStrength: 2
+    - _EmissiveBlink_Max: 2
+    - _EmissiveBlink_Min: 1
+    - _EmissiveBlink_Velocity: 2
+    - _EmissiveScroll_Interval: 15
+    - _EmissiveScroll_Velocity: 2
+    - _EmissiveScroll_Width: 3
+    - _Fresnel: 5
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _GlowPower: 1
+    - _IOR: 1.45
+    - _IndirectContribution: 0
+    - _InvertSmoothness: 0
+    - _MatcapStrength: 1
+    - _MaxBrightness: 1
+    - _Metallic: 0
+    - _MinBrightness: 0
+    - _Mirror: 0
+    - _Mode: 0
+    - _MultiplyMatcap: 0
+    - _NoisePower: 3
+    - _NoiseScale: 1
+    - _OcclusionStrength: 1
+    - _PanningTexOpacity: 0.5
+    - _PanningTexPower: 1
+    - _PanoBlend: 0
+    - _PanoEmission: 0
+    - _Parallax: 0.02
+    - _PurelyAdditive: 0
+    - _ReplaceWithMatcap: 0
+    - _RimLightColorBias: 0
+    - _RimSharpness: 0.25
+    - _RimStrength: 0
+    - _RimWidth: 0.8
+    - _SSSDistortion: 0
+    - _SSSPower: 1
+    - _SSSSCale: 0
+    - _SSSThicknessMod: 0
+    - _SampleWorld: 0
+    - _ScanlineDelay: 1.5
+    - _ScanlineHeight: 0
+    - _ScanlinePower: 1
+    - _ScanlineVelocity: 1
+    - _ScrollingEmission: 1
+    - _ShadowMix: 0
+    - _ShadowMixThreshold: 0.5
+    - _ShadowMixWidthMod: 0.5
+    - _ShadowOffset: 0
+    - _ShadowStrength: 0
+    - _Smoothness: 0
+    - _SmoothnessFrom: 1
+    - _SmoothnessTextureChannel: 0
+    - _SourceBlend: 5
+    - _SpecularColorFrom: 0
+    - _SpecularHighlights: 1
+    - _SpecularSmoothness: 0
+    - _SpecularType: 0
+    - _SrcBlend: 1
+    - _StencilCompareFunction: 8
+    - _StencilFailOp: 0
+    - _StencilPassOp: 0
+    - _StencilReadMaskRef: 0
+    - _StencilRef: 0
+    - _StencilWriteMaskRef: 0
+    - _StencilZFailOp: 0
+    - _SubScanlineFrequency: 10
+    - _SubScanlineHeight: 0
+    - _SubScanlinePower: 1
+    - _SubScanlineVelocity: 1
+    - _UVSec: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    - __dirty: 1
+    - footer_discord: 0
+    - footer_donate: 0
+    - footer_github: 0
+    - footer_patreon: 0
+    - m_StencilPassOptions: 0
+    - m_emissionOptions: 1
+    - m_end_ShadowMix: 0
+    - m_end_blinkingEmissionOptions: 0
+    - m_end_lightingAdvanced: 0
+    - m_end_mainAdvanced: 0
+    - m_end_scrollingEmissionOptions: 0
+    - m_fakeLightingOptions: 1
+    - m_funOptions: 0
+    - m_mainOptions: 1
+    - m_matcapOptions: 0
+    - m_metallicOptions: 0
+    - m_miscOptions: 0
+    - m_panosphereOptions: 0
+    - m_rimLightOptions: 0
+    - m_specularHighlightsOptions: 0
+    - m_start_ShadowMix: 0
+    - m_start_blinkingEmissionOptions: 1
+    - m_start_lightingAdvanced: 1
+    - m_start_mainAdvanced: 0
+    - m_start_scrollingEmissionOptions: 1
+    - m_subsurfaceOptions: 0
+    - m_textureBlending: 0
+    - shader_eable_poi_settings_selection: 0
+    - shader_is_using_thry_editor: 0
+    - shader_master_label: 0
+    - shader_presets: 0
+    m_Colors:
+    - _BlendTextureColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionScrollSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveScroll_Direction: {r: 0, g: -10, b: 25, a: 0}
+    - _GlobalPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MatcapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NoiseSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _PanningTexSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _PanosphereColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PanosphereScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _RampColor: {r: 1, g: 1, b: 1, a: 0}
+    - _RampSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimTexPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _SSSColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ScanlineColor: {r: 0.7, g: 0.7, b: 1, a: 1}
+    - _SpecularTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SubScanlineColor: {r: 0.7, g: 0.7, b: 1, a: 1}
